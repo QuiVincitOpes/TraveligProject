@@ -1,8 +1,8 @@
-.card-image{
+/* .card-image{
     margin: 20px;
 }
 body{
-    background:rgba(2, 1, 1, 0.938);
+  
 }
 .con-img-a{
     background: url(/diving/description6.jpg);
@@ -10,4 +10,43 @@ body{
 }
 .container-im{
     margin: 20px;
+} */
+
+
+
+.card-image{
+    margin: 20px;
+}
+body{
+    background:rgba(2, 1, 1, 0.938);
+    background-attachment: fixed;
+    
+
+}
+.con-img-a{
+    background: url(/images22/description6.jpg);
+    background-attachment: fixed;
+}
+.container-im{
+    margin: 20px;
+}
+h1{
+    font-size: 100px;
+    font-style: italic;
+}
+h2{
+    font-size: 12mm
+}
+p.firstp{
+    font-size: 8mm;
+    font-style: bold;
+    font-style: italic;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+p.lead{
+    font-size: 5mm;
+    font-style: bold;
+}
+footer{
+    color: aqua;
 }

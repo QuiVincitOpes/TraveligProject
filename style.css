@@ -1,0 +1,91 @@
+/* Page Styles
+================================ */
+
+body {
+	font: normal 1.1em/1.5 sans-serif;
+	color: #222;
+	background-color: #edeff0;
+}
+
+/* Layout Element Colors
+================================ */
+
+.main-header       { background-color: #384047; }
+.main-nav a        { background-color: #3f8abf; }
+.main-logo a       { background-color: #5fcf80; }
+.primary-content   { background-color: #caebf6; }
+.main-footer       { background-color: #b7c0c7; }
+
+
+.main-footer {
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.extra-content,
+.main-banner {
+	display: none;
+}
+
+/* Imagery
+================================ */
+
+.feat-img {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border: solid 1px;
+	padding: 5px;
+}
+
+
+
+
+@media (min-width: 769px) {
+
+	
+
+	/* Header and Banner Layout
+	================================ */
+
+	.main-header {
+		position: fixed;
+		top: 0;
+		width: 100%;
+		height: 120px;
+	}
+	
+	.main-logo:first-child {
+		margin-right: 50px;
+		-webkit-flex-grow: 1.5;
+		flex-grow: 1.5;
+	}
+	.main-banner {
+		background: #dfe2e4;
+		text-align: center;
+		padding: 50px 15px;
+		display: block;
+	}
+
+	/* Column Layout
+	================================ */
+
+	.col {
+		width: 30%;
+		display: inline-block;
+		margin-right: -5px;
+		vertical-align: top;
+	}
+	.primary-content {
+		width: 40%;
+	}
+
+	/* Imagery
+	================================ */
+
+	.feat-img {
+		width: 50%;
+		float: left;
+		margin-right: 25px;
+	}
+}
